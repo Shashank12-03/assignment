@@ -33,14 +33,15 @@ python manage.py runserver
 http://127.0.0.1:8000/
 
 ## API Endpoints
-List Events: GET /event/ - Lists all available events.
-Create Event: POST /events_create/ - Creates a new event.
-Add Participant: POST /add_participant/ - Adds a new participant.
-Event Details: GET /event/<event_id>/ - Retrieves details of a specific event.
-Register Event: POST /event/register/ - Registers a participant for an event.
+- **List Events:** `GET /event/` - Lists all available events.
+- **Create Event:** `POST /events_create/` - Creates a new event.
+- **Add Participant:** `POST /add_participant/` - Adds a new participant.
+- **Event Details:** `GET /event/<event_id>/` - Retrieves details of a specific event.
+- **Register Event:** `POST /event/register/` - Registers a participant for an event.
+
 
 ## Testing with Postman
-Install Postman from https://www.postman.com/downloads/.
-Import the provided Postman collection file (event_registration_api.postman_collection.json).
-Use the imported collection to test the API endpoints.
-Ensure that the server is running (python manage.py runserver) before testing the endpoints.
+- Install Postman from https://www.postman.com/downloads/.
+- Import the provided Postman collection file (event_registration_api.postman_collection.json).
+- Use the imported collection to test the API endpoints.
+- Ensure that the server is running (python manage.py runserver) before testing the endpoints.
